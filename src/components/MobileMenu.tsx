@@ -1,6 +1,6 @@
 'use client';
 
-import Link from 'next/link';
+import { Link } from 'react-router-dom';
 // import {useEffect} from "react"
 import styled from 'styled-components';
 // import { Link } from 'gatsby';
@@ -60,7 +60,7 @@ const MobileMenu: React.FC<MobileMenuProps> = ({
   return (
     <Ul openMobileMenu={openMobileMenu}>
       <li>
-        <Link href="/" onClick={() => setOpenMobileMenu(!openMobileMenu)}>
+        <Link to="/" onClick={() => setOpenMobileMenu(!openMobileMenu)}>
           Home
         </Link>
       </li>
@@ -71,14 +71,14 @@ const MobileMenu: React.FC<MobileMenuProps> = ({
       </li>
       <li>
         <Link
-          href="/excerpt"
+          to="/excerpt"
           onClick={() => setOpenMobileMenu(!openMobileMenu)}
         >
           Read an Excerpt
         </Link>
       </li>
       <li>
-        {/* <AnchorLink href="/#video">
+        {/* <AnchorLink to="/#video">
           <p className="desktop-nav-list__list-item-text">Watch a Video</p>
         </AnchorLink> */}
         <a href="#video" onClick={() => setOpenMobileMenu(!openMobileMenu)}>

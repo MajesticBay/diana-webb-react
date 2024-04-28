@@ -1,5 +1,5 @@
-import React from 'react';
-import Image from 'next/image';
+// import React from 'react';
+// import img from 'next/img';
 import award_1 from '../../public/award_1.png';
 import award_2 from '../../public/award_2.png';
 import award_3 from '../../public/award_3.png';
@@ -19,7 +19,7 @@ const Awards = () => (
       ></iframe>
       <div className="awards-container__awards">
         <div className="awards-container__award">
-          <Image
+          <img
             className="awards-container__picture"
             src={award_1}
             alt="award 1"
@@ -36,7 +36,7 @@ const Awards = () => (
           </div>
         </div>
         <div className="awards-container__award">
-          <Image
+          <img
             className="awards-container__picture"
             src={award_2}
             alt="award 2"
@@ -51,7 +51,7 @@ const Awards = () => (
           </div>
         </div>
         <div className="awards-container__award">
-          <Image
+          <img
             className="awards-container__picture"
             src={award_3}
             alt="award 3"
@@ -66,7 +66,7 @@ const Awards = () => (
           </div>
         </div>
         <div className="awards-container__award">
-          <Image
+          <img
             className="awards-container__picture"
             src={award_4}
             alt="award 4"
@@ -81,7 +81,7 @@ const Awards = () => (
           </div>
         </div>
         <div className="awards-container__award">
-          <Image
+          <img
             className="awards-container__picture"
             src={award_5}
             alt="award 5"

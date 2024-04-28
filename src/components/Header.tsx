@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import Link from 'next/link';
+import { Link } from 'react-router-dom';
 import Hamburger from './Hamburger';
 import MobileMenu from './MobileMenu';
 // import Button from "./button"
@@ -17,7 +17,7 @@ const Header: React.FC<HeaderProps> = ({ siteTitle }) => {
   return (
     <header className="header">
       <nav className="mobile-nav">
-        <Link href="/">
+        <Link to="/">
           <h1 className="mobile-nav__diana-webb">{siteTitle}</h1>
         </Link>
         <Hamburger
@@ -33,21 +33,21 @@ const Header: React.FC<HeaderProps> = ({ siteTitle }) => {
         <div className="desktop-nav__inner-container">
           <ul className="desktop-nav-list">
             <li>
-              <Link className="desktop-nav-list__list-item-link" href="/">
+              <Link className="desktop-nav-list__list-item-link" to="/">
                 <h1 className="desktop-nav-list__list-item-header">
                   Diana Webb
                 </h1>
               </Link>
             </li>
             <li className="desktop-nav-list__list-item">
-              <Link className="desktop-nav-list__list-item-link" href="/#bio">
+              <Link className="desktop-nav-list__list-item-link" to="/#bio">
                 <p className="desktop-nav-list__list-item-text">Bio</p>
               </Link>
             </li>
             <li className="desktop-nav-list__list-item">
               <Link
                 className="desktop-nav-list__list-item-link"
-                href="/excerpt/"
+                to="/excerpt/"
               >
                 <p className="desktop-nav-list__list-item-text">
                   Read An Excerpt
@@ -55,7 +55,7 @@ const Header: React.FC<HeaderProps> = ({ siteTitle }) => {
               </Link>
             </li>
             <li className="desktop-nav-list__list-item">
-              <Link className="desktop-nav-list__list-item-link" href="/#video">
+              <Link className="desktop-nav-list__list-item-link" to="/#video">
                 <p className="desktop-nav-list__list-item-text">
                   Watch a Video
                 </p>
@@ -64,7 +64,7 @@ const Header: React.FC<HeaderProps> = ({ siteTitle }) => {
           </ul>
           <Link
             className="desktop-nav-list__list-item-text"
-            href="/#book-order-id"
+            to="/#book-order-id"
           >
             {/* <Button /> */}
             <div className="btn pointer">Order the Book</div>

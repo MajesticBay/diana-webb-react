@@ -2,7 +2,7 @@
 // import { useState } from "react"
 import Button from './Button';
 // import BookOrderPopup from './book-order-popup'
-import Image from 'next/image';
+// import img from 'next/img';
 import book_1 from '../../public/book_1.png';
 import award_1 from '../../public/award_1.png';
 import award_2 from '../../public/award_2.png';
@@ -18,34 +18,34 @@ const BookOrder = () => {
     // <div className="book-order" id="book-order-id" ref={orderRef}>
     <div className="book-order" id="book-order-id">
       <div className="book-order__inner-container">
-        <Image className="book-order__photo" src={book_1} alt="book" />
+        <img className="book-order__photo" src={book_1} alt="book" />
         <div className="book-order__text">
           <h1 className="book-order__header">
             The Butterfly Cometh offers powerful insight into putting the color
             back into life
           </h1>
           <div className="book-order__awards-small-icons">
-            <Image
+            <img
               className="book-order__awards-small-icon-1"
               src={award_1}
               alt="award 1"
             />
-            <Image
+            <img
               className="book-order__awards-small-icon-2"
               src={award_2}
               alt="award 2"
             />
-            <Image
+            <img
               className="book-order__awards-small-icon-3"
               src={award_3}
               alt="award 3"
             />
-            <Image
+            <img
               className="book-order__awards-small-icon-4"
               src={award_4}
               alt="award 4"
             />
-            <Image
+            <img
               className="book-order__awards-small-icon-5"
               src={award_5}
               alt="award 5"

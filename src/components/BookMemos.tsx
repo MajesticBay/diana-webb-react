@@ -1,8 +1,8 @@
-import React from 'react';
+// import React from 'react';
 // import Button from "./button"
 // import PaypalButton from './paypal-button'
 import avatar from '../../public/avatar.png';
-import Image from 'next/image';
+// import Image from 'next/image';
 
 // const BookMemos = ({ handleScroll }) => (
 const BookMemos = () => (
@@ -22,7 +22,7 @@ const BookMemos = () => (
         </div>
         <div className="book-memos__avatar-container">
           <div className="book-memos__avatar">
-            <Image
+            <img
               className="book-memos__avatar-image"
               src={avatar}
               alt="avatar"
