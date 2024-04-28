@@ -1,9 +1,9 @@
-'use client';
+"use client";
 
-import { useState } from 'react';
-import { Link } from 'react-router-dom';
-import Hamburger from './Hamburger';
-import MobileMenu from './MobileMenu';
+import { useState } from "react";
+import { Link } from "react-router-dom";
+import Hamburger from "./Hamburger";
+import MobileMenu from "./MobileMenu";
 // import Button from "./button"
 // import PaypalButton from './paypal-button'
 // import { Link } from 'gatsby-plugin-anchor-links';
@@ -45,10 +45,7 @@ const Header: React.FC<HeaderProps> = ({ siteTitle }) => {
               </Link>
             </li>
             <li className="desktop-nav-list__list-item">
-              <Link
-                className="desktop-nav-list__list-item-link"
-                to="/excerpt/"
-              >
+              <Link className="desktop-nav-list__list-item-link" to="/excerpt/">
                 <p className="desktop-nav-list__list-item-text">
                   Read An Excerpt
                 </p>

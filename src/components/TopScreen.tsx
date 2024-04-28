@@ -1,6 +1,6 @@
-import React from 'react';
+// import React from "react";
 // import { useState } from "react"
-import Image from 'next/image';
+// import img from "next/image";
 import book from '../../public/book3d.png';
 // import Button from "./button"
 // import BookOrderPopup from './book-order-popup'
@@ -45,7 +45,7 @@ const TopScreen = () => {
           </div>
         </div>
         <div className="top-screen__right">
-          <Image className="top-screen__book-image" src={book} alt="book" />
+          <img className="top-screen__book-image" src={book} alt="book" />
         </div>
         {/* <BookOrderPopup openPopup={openPopup} setOpenPopup={setOpenPopup} /> */}
       </div>

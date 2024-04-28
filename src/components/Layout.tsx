@@ -1,15 +1,11 @@
-import { ReactNode } from 'react';
+import { ReactNode } from "react";
 
 interface LayoutProps {
-    children?: ReactNode;  // `children` is optional unless always required
+  children?: ReactNode; // `children` is optional unless always required
 }
 
 const Layout = ({ children }: LayoutProps) => {
-    return (
-        <>
-            {children}
-        </>
-    );
-}
+  return <>{children}</>;
+};
 
 export default Layout;

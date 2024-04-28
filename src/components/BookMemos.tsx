@@ -1,7 +1,7 @@
 // import React from 'react';
 // import Button from "./button"
 // import PaypalButton from './paypal-button'
-import avatar from '../../public/avatar.png';
+import avatar from "../../public/avatar.png";
 // import Image from 'next/image';
 
 // const BookMemos = ({ handleScroll }) => (
@@ -14,7 +14,7 @@ const BookMemos = () => (
             Do you harbor dark secrets and painful memories?
           </p>
           <p className="book-memos__question">
-            Do you want to see all of life’s radiant colors?
+            Do you want to see all of life&apos;s radiant colors?
           </p>
           <p className="book-memos__question">
             Find peace in being your natural self. Attain a tranquil existence!
