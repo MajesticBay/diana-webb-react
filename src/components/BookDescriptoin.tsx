@@ -10,8 +10,8 @@ const BookDescription = () => {
       <div className="book-description__text" id="order">
         The book is a 171-day journey about being grateful in the gifts God gave
         us. It is a reflective odyssey into peeling back the onion layers of
-        one&apos;s life and seeing the true self. Life is about making things nicer
-        for others. It is not about self anymore, nor is it about how many
+        one&apos;s life and seeing the true self. Life is about making things
+        nicer for others. It is not about self anymore, nor is it about how many
         Benjamins we have in the bank. It is about how we love and how well we
         love in this world and whether we believe the sacrifice at Calvary was
         good enough. It is about how we labor in the vineyard of the purpose for
@@ -19,7 +19,7 @@ const BookDescription = () => {
       </div>
       <h1 className="book-description__header">
         In her book, author Diana Webb takes us on a unique sojourn during which
-        the readeris encouraged to:{" "}
+        the readeris encouraged to:{' '}
       </h1>
       <div className="book-description__points">
         <div className="book-description__points__column">

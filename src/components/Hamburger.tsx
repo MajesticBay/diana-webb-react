@@ -1,6 +1,6 @@
-"use client";
+'use client';
 
-import styled from "styled-components";
+import styled from 'styled-components';
 
 interface DivProps {
   openMobileMenu: boolean;
@@ -9,9 +9,9 @@ interface DivProps {
 const Div = styled.div<DivProps>`
   width: 1.8rem;
   height: 1.8rem;
-  position: ${({ openMobileMenu }) => (openMobileMenu ? "fixed" : "static")};
-  top: ${({ openMobileMenu }) => (openMobileMenu ? "2.8rem" : "auto")};
-  right: ${({ openMobileMenu }) => (openMobileMenu ? "3rem" : "auto")};
+  position: ${({ openMobileMenu }) => (openMobileMenu ? 'fixed' : 'static')};
+  top: ${({ openMobileMenu }) => (openMobileMenu ? '2.8rem' : 'auto')};
+  right: ${({ openMobileMenu }) => (openMobileMenu ? '3rem' : 'auto')};
   z-index: 20;
   display: flex;
   justify-content: space-around;
@@ -21,7 +21,7 @@ const Div = styled.div<DivProps>`
     width: 2rem;
     height: 0.25rem;
     background-color: ${({ openMobileMenu }) =>
-      openMobileMenu ? "#333" : "var(--color-black)"};
+      openMobileMenu ? '#333' : 'var(--color-black)'};
     // background-color var(--color-black);
     border-radius: 10px;
     transform-origin: 1px;
@@ -29,18 +29,18 @@ const Div = styled.div<DivProps>`
 
     &:nth-child(1) {
       transform: ${({ openMobileMenu }) =>
-        openMobileMenu ? "rotate(45deg)" : "rotate(0)"};
+        openMobileMenu ? 'rotate(45deg)' : 'rotate(0)'};
     }
 
     // &:nth-child(2) {
     //     transform: ${({ openMobileMenu }) =>
-      openMobileMenu ? "translateX(100%)" : "translateX(0)"};
+      openMobileMenu ? 'translateX(100%)' : 'translateX(0)'};
     //     opacity: ${({ openMobileMenu }) => (openMobileMenu ? 0 : 1)};
     // }
 
     &:nth-child(2) {
       transform: ${({ openMobileMenu }) =>
-        openMobileMenu ? "rotate(-45deg)" : "rotate(0)"};
+        openMobileMenu ? 'rotate(-45deg)' : 'rotate(0)'};
       position: relative;
       bottom: -4px;
     }
@@ -61,7 +61,7 @@ const Hamburger: React.FC<HamburgerProps> = ({
       className="pointer"
       openMobileMenu={openMobileMenu}
       onClick={() => {
-        console.log("openMobileMenu =>", openMobileMenu);
+        console.log('openMobileMenu =>', openMobileMenu);
         setOpenMobileMenu(!openMobileMenu);
       }}
     >

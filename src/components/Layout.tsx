@@ -1,4 +1,4 @@
-import { ReactNode } from "react";
+import { ReactNode } from 'react';
 
 interface LayoutProps {
   children?: ReactNode; // `children` is optional unless always required

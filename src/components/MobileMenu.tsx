@@ -1,8 +1,8 @@
-"use client";
+'use client';
 
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
 // import {useEffect} from "react"
-import styled from "styled-components";
+import styled from 'styled-components';
 // import { Link } from 'gatsby';
 // import { AnchorLink } from "gatsby-plugin-anchor-links"
 
@@ -13,7 +13,7 @@ interface UlProps {
 const Ul = styled.ul<UlProps>`
   width: 100%;
   height: 101vh;
-  display: ${({ openMobileMenu }) => (openMobileMenu ? "flex" : "none")};
+  display: ${({ openMobileMenu }) => (openMobileMenu ? 'flex' : 'none')};
   flex-direction: column;
   align-items: center;
   // gap: 6.3rem;
