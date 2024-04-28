@@ -3,15 +3,15 @@
 // import viteLogo from '/vite.svg'
 // import './App.css'
 // import {Layout} from "./components/Layout";
+import Header from './components/Header';
 
 function App() {
   // const [count, setCount] = useState(0)
 
   return (
     <>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <Header />
+      {/* <p>hello</p> */}
     </>
   );
 }
