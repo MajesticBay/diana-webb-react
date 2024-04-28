@@ -1,14 +1,14 @@
 // import React from 'react';
 // import { useState } from "react"
-import Button from "./Button";
+import Button from './Button';
 // import BookOrderPopup from './book-order-popup'
 // import img from 'next/img';
-import book_1 from "../../public/book_1.png";
-import award_1 from "../../public/award_1.png";
-import award_2 from "../../public/award_2.png";
-import award_3 from "../../public/award_3.png";
-import award_4 from "../../public/award_4.png";
-import award_5 from "../../public/award_5.png";
+import book_1 from '../assets/images/book_1.png';
+import award_1 from '../assets/images/award_1.png';
+import award_2 from '../assets/images/award_2.png';
+import award_3 from '../assets/images/award_3.png';
+import award_4 from '../assets/images/award_4.png';
+import award_5 from '../assets/images/award_5.png';
 
 // import book_1 from '../../public/book_1.png';
 
@@ -78,7 +78,7 @@ const BookOrder = () => {
           </div>
           <div className="book-order__links">
             <p className="book-order__link-text">
-              Or buy the Book on{" "}
+              Or buy the Book on{' '}
               <a
                 className="book-order__link"
                 target="_blank"
@@ -86,8 +86,8 @@ const BookOrder = () => {
                 href="https://www.amazon.com/Butterfly-Cometh-Putting-Color-Back/dp/1432728970/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1616022304&sr=8-1"
               >
                 Amazon
-              </a>{" "}
-              :{" "}
+              </a>{' '}
+              :{' '}
               <a
                 className="book-order__link"
                 target="_blank"
@@ -95,8 +95,8 @@ const BookOrder = () => {
                 href="https://www.barnesandnoble.com/w/the-butterfly-cometh-diana-webb/1113552490?ean=9781432728977"
               >
                 Barnes & Noble
-              </a>{" "}
-              :{" "}
+              </a>{' '}
+              :{' '}
               <a
                 className="book-order__link"
                 target="_blank"
@@ -104,8 +104,8 @@ const BookOrder = () => {
                 href="https://www.amazon.com/Butterfly-Cometh-Putting-Color-Back-ebook/dp/B004Q9TYO4"
               >
                 Kindle
-              </a>{" "}
-              :{" "}
+              </a>{' '}
+              :{' '}
               <a
                 className="book-order__link"
                 target="_blank"

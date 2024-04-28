@@ -1,7 +1,7 @@
 // import React from "react";
 // import img from "next/img";
-import book from "../../public/book.png";
-import person from "../../public/person.png";
+import book from '../assets/images/book.png';
+import person from '../assets/images/person.png';
 
 const MeetDiana = () => (
   <div className="meet-diana" id="bio">
@@ -34,13 +34,13 @@ const MeetDiana = () => (
           <p className="meet-diana__text">
             A motivational speaker and freelance writer, delight in a spiritual
             voyage through the intricate workings of the heart and mind with
-            Diana&apos;s Digital Devotions, E-Prayers, and I-Inspirationals. Truth
-            tells us a bullet never trumps a principle, be it a nuclear warhead
-            or pulling a Judas. Seeing the world through rose-colored glasses is
-            no longer in Vogue. Until the soul stands naked and free, we can
-            only see the world in shades of gray. When we rid ourselves of the
-            garbage that we have accumulated, crushing our life force, glory
-            shines in Technicolor.
+            Diana&apos;s Digital Devotions, E-Prayers, and I-Inspirationals.
+            Truth tells us a bullet never trumps a principle, be it a nuclear
+            warhead or pulling a Judas. Seeing the world through rose-colored
+            glasses is no longer in Vogue. Until the soul stands naked and free,
+            we can only see the world in shades of gray. When we rid ourselves
+            of the garbage that we have accumulated, crushing our life force,
+            glory shines in Technicolor.
           </p>
           <p className="meet-diana__text">
             Make today your first step in the dance of strengthening character,

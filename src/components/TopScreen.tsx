@@ -1,7 +1,7 @@
 // import React from "react";
 // import { useState } from "react"
 // import img from "next/image";
-import book from '../../public/book3d.png';
+import book from '../assets/images/book3d.png';
 // import Button from "./button"
 // import BookOrderPopup from './book-order-popup'
 

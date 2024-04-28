@@ -1,7 +1,7 @@
 // import React from 'react';
 // import Button from "./button"
 // import PaypalButton from './paypal-button'
-import avatar from "../../public/avatar.png";
+import avatar from '../assets/images/avatar.png';
 // import Image from 'next/image';
 
 // const BookMemos = ({ handleScroll }) => (

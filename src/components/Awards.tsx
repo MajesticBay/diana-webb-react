@@ -1,10 +1,10 @@
 // import React from 'react';
 // import img from 'next/img';
-import award_1 from "../../public/award_1.png";
-import award_2 from "../../public/award_2.png";
-import award_3 from "../../public/award_3.png";
-import award_4 from "../../public/award_4.png";
-import award_5 from "../../public/award_5.png";
+import award_1 from '../assets/images/award_1.png';
+import award_2 from '../assets/images/award_2.png';
+import award_3 from '../assets/images/award_3.png';
+import award_4 from '../assets/images/award_4.png';
+import award_5 from '../assets/images/award_5.png';
 
 const Awards = () => (
   <div className="awards-container" id="video">
