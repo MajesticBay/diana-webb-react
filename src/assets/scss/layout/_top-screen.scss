@@ -30,7 +30,9 @@
     line-height: 92.02%;
     width: fit-content;
     background-color: var(--color-white);
-    box-shadow: -1.8rem 0 var(--color-white), 2.7rem 0 var(--color-white);
+    box-shadow:
+      -1.8rem 0 var(--color-white),
+      2.7rem 0 var(--color-white);
   }
 
   &__book-title--bottom {
@@ -40,7 +42,9 @@
     width: fit-content;
 
     background-color: var(--color-white);
-    box-shadow: 4.2rem 0 var(--color-white), -1rem 0 var(--color-white);
+    box-shadow:
+      4.2rem 0 var(--color-white),
+      -1rem 0 var(--color-white);
   }
 
   &__order-btn-container {
@@ -108,13 +112,17 @@
 
     &__book-title--top {
       font-size: 9.2rem;
-      box-shadow: -8rem 0 var(--color-white), 2.7rem 0 var(--color-white);
+      box-shadow:
+        -8rem 0 var(--color-white),
+        2.7rem 0 var(--color-white);
     }
 
     &__book-title--bottom {
       font-size: 9.2rem;
       width: fit-content;
-      box-shadow: 8rem 0 var(--color-white), -2.1rem 0 var(--color-white);
+      box-shadow:
+        8rem 0 var(--color-white),
+        -2.1rem 0 var(--color-white);
     }
 
     &__order-btn {
