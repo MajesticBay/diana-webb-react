@@ -1,0 +1,220 @@
+.book-order {
+  background-color: var(--color-primary);
+  display: flex;
+  flex-direction: column;
+
+  &__inner-container {
+    display: flex;
+    flex-direction: column;
+    padding: 5rem 2rem 6rem 2rem;
+    // background-color: var(--color-primary);
+    align-items: center;
+  }
+
+  &__photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32rem;
+    flex-shrink: 0;
+    margin-bottom: 4rem;
+  }
+
+  &__header {
+    display: flex;
+    font-size: 3.7rem;
+    font-weight: 600;
+    line-height: 4.07rem;
+    margin: 1.7rem 0 1.7rem 0;
+  }
+
+  &__text {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.6rem;
+    line-height: 150%;
+    margin: 1rem 0;
+  }
+
+  &__awards-small-icons {
+    display: flex;
+    position: relative;
+    height: 8.5rem;
+    width: 34rem;
+  }
+
+  &__awards-small-icon-1 {
+    display: flex;
+    position: absolute;
+    z-index: 5;
+    left: 0rem;
+    width: 8.5rem;
+  }
+
+  &__awards-small-icon-2 {
+    display: flex;
+    position: absolute;
+    left: 6rem;
+    z-index: 4;
+    width: 8.5rem;
+  }
+
+  &__awards-small-icon-3 {
+    display: flex;
+    position: absolute;
+    left: 12rem;
+    z-index: 3;
+    width: 8.5rem;
+  }
+
+  &__awards-small-icon-4 {
+    display: flex;
+    position: absolute;
+    left: 18rem;
+    z-index: 2;
+    width: 8.5rem;
+  }
+
+  &__awards-small-icon-5 {
+    display: flex;
+    position: absolute;
+    left: 24rem;
+    z-index: 1;
+    width: 8.5rem;
+  }
+
+  &__paypal-desktop {
+    display: flex;
+    display: none;
+  }
+
+  &__paypal {
+    display: inline;
+    font-size: 2.6rem;
+    font-weight: 600;
+    line-height: 3.4rem;
+    margin: 2.6rem 0;
+  }
+
+  &__link {
+    color: var(--color-black);
+    text-decoration: underline;
+  }
+
+  &__links {
+    display: flex;
+    flex-direction: row;
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .book-order {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-primary);
+
+    &__inner-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      gap: 13.6rem;
+      padding: 12rem 0;
+      max-width: var(--width-desktop-big);
+      // margin: 0 auto;
+    }
+
+    &__photo {
+      display: flex;
+      //flex: 1;
+      width: 22vw;
+      margin-bottom: 0;
+    }
+
+    &__text {
+      display: flex;
+      flex-direction: column;
+      // padding: 0 13.5rem;
+      padding-right: 13.6rem;
+      text-align: justify;
+    }
+
+    &__header {
+      font-size: 5.6rem;
+      line-height: 110%;
+      font-weight: 600;
+    }
+
+    &__awards-small-icons {
+      display: flex;
+      justify-content: center;
+      position: relative;
+      height: 11rem;
+      margin: 4rem 0;
+    }
+
+    &__awards-small-icon-1 {
+      position: absolute;
+      z-index: 5;
+      left: 0rem;
+      width: 11rem;
+    }
+
+    &__awards-small-icon-2 {
+      position: absolute;
+      left: 9rem;
+      z-index: 4;
+      width: 11rem;
+    }
+
+    &__awards-small-icon-3 {
+      position: absolute;
+      left: 18rem;
+      z-index: 3;
+      width: 11rem;
+    }
+
+    &__awards-small-icon-4 {
+      position: absolute;
+      left: 27rem;
+      z-index: 2;
+      width: 11rem;
+    }
+
+    &__awards-small-icon-5 {
+      position: absolute;
+      left: 36rem;
+      z-index: 1;
+      width: 11rem;
+    }
+
+    &__order-btn {
+      display: none;
+    }
+
+    &__paypal {
+      display: none;
+    }
+
+    &__paypal-desktop {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      margin: 7rem 0 5rem 0;
+      font-size: 2.6rem;
+      font-weight: 600;
+      line-height: 2.4rem;
+    }
+
+    &__paypal-desktop__text {
+      margin: 1rem 4rem;
+    }
+
+    &__order-btn {
+      display: flex;
+      height: fit-content;
+    }
+  }
+}

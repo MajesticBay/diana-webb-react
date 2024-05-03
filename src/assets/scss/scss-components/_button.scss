@@ -1,0 +1,17 @@
+.btn-wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  // max-width: 301px;
+  font-size: 2.6rem;
+  font-weight: 600;
+  line-height: 23.93px;
+  padding: 2.2rem 6rem;
+  border: 8px solid var(--color-white);
+  background-color: var(--color-primary);
+  white-space: nowrap;
+  height: max-content;
+  //margin: 4.6rem;
+}

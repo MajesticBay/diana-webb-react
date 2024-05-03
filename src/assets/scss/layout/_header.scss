@@ -1,0 +1,125 @@
+.header {
+  display: flex;
+  justify-content: center;
+  // margin: 0 240px;
+  background-color: var(--color-primary);
+  padding: 2.8rem 3rem;
+  margin-bottom: -1px;
+}
+
+.mobile-nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+  &__diana-webb {
+    color: var(--color-black);
+    font-size: 2.1rem;
+  }
+}
+
+.desktop-nav {
+  display: none;
+}
+
+.desktop-nav-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+
+  &__list-item {
+    display: none;
+  }
+}
+
+// @media only screen and (min-width: 768px) {
+//     .desktop-nav {
+//         display: block;
+//         width: 100%;
+
+//         &__inner-container {
+//         }
+//     }
+// }
+
+// @media only screen and (min-width: 1024px) {
+//     .desktop-nav-list {
+//         max-width: 75%;
+//     }
+// }
+
+@media only screen and (min-width: 1024px) {
+  .header {
+    margin-bottom: 0;
+  }
+
+  .mobile-nav {
+    display: none;
+  }
+
+  .desktop-nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    &__inner-container {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      // max-width: 1024px;
+      padding-top: 3.9rem;
+    }
+  }
+
+  .desktop-nav-list {
+    // width: 100%;
+    flex-direction: row;
+    align-items: center;
+
+    &__list-item {
+      display: block;
+      margin-left: 4.1rem;
+      // padding: 5.7rem 0 3.6rem 0;
+      font-size: 1.9rem;
+      text-decoration: underline;
+      color: var(--color-black);
+    }
+
+    &__list-item-text {
+      color: var(--color-black);
+    }
+
+    &__list-item-text:visited {
+      color: var(--color-black);
+      font-weight: 600;
+    }
+
+    &__list-item-text:hover {
+      font-weight: 700;
+    }
+
+    &__list-item-text:active {
+      font-weight: 600;
+    }
+
+    &__list-item-link {
+      color: var(--color-black);
+    }
+
+    &__list-item-header {
+      font-size: 2.6rem;
+    }
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  // .desktop-nav {
+  //   &__inner-container {
+  //     max-width: 1442px;
+  //   }
+  // }
+  .desktop-nav {
+    max-width: var(--width-desktop-big);
+  }
+}

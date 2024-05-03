@@ -1,0 +1,29 @@
+.sidebar-btns {
+  display: none;
+  position: fixed;
+  bottom: 5rem;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  opacity: 0.4;
+  cursor: pointer;
+  //padding: 0.9375rem;
+  //border-radius: 0.25rem;
+  background-image: url("../images/arrow-up.png");
+  background-color: #eaf2f0;
+  background-repeat: no-repeat;
+  width: 8.5rem;
+  height: 8.5rem;
+  //left: 1709px;
+  //top: 706px;
+  background-position: center;
+  mix-blend-mode:normal;
+ // animation-duration: 300ms;
+}
+
+#scroll-btn {
+  right: 5%;
+  background-image: url("../images/arrow-up.png");
+  background-color: #eaf2f0;
+}

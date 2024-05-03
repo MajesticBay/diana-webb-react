@@ -1,0 +1,140 @@
+.meet-diana {
+  &__inner-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__half-top {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__description {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    flex: 1;
+  }
+
+  &__header {
+    font-size: 3.7rem;
+    font-weight: 600;
+    line-height: 4.07rem;
+    margin: 1.7rem 0 1.7rem 0;
+  }
+
+  &__text {
+    font-size: 1.6rem;
+    line-height: 150%;
+    margin: 1rem 0;
+  }
+
+  &__photo--top {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    width: 100%;
+    flex-shrink: 0;
+  }
+
+  &__half-bottom {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__photo--bottom {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    border-bottom: 2.3rem solid var(--color-primary);
+    width: 100%;
+    flex-shrink: 0;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .meet-diana {
+    display: flex;
+    justify-content: center;
+
+    &__inner-container {
+      display: flex;
+      flex-direction: column;
+      margin: 0 auto;
+      width: 100%;
+      max-width: var(--width-desktop-big);
+      padding: 10rem 0;
+    }
+
+    &__half-top {
+      display: flex;
+      // height: 50%;
+      flex-direction: row-reverse;
+      align-items: flex-end;
+    }
+
+    &__half-bottom {
+      display: flex;
+      align-items: flex-end;
+      // height: 50%;
+      flex-direction: row-reverse;
+      margin-top: -6rem;
+    }
+
+    &__description {
+      display: flex;
+      flex: 1;
+      padding: 16rem 8rem 0 9rem;
+      width: 47.5rem;
+      align-self: baseline;
+    }
+
+    &__header {
+      display: flex;
+      margin: 0 0 5rem 0;
+      font-weight: 600;
+      font-size: 5.6rem;
+      line-height: 6.2rem;
+    }
+
+    &__text {
+      display: flex;
+      font-size: 2.4rem;
+    }
+
+    &__photo--top {
+      display: flex;
+      max-width: 32.7vw;
+      align-items: flex-end;
+    }
+
+    &__photo-container {
+      display: flex;
+      position: relative;
+      align-items: flex-end;
+    }
+
+    &__photo--bottom {
+      display: flex;
+      flex: 1;
+      position: relative;
+      z-index: 2;
+      //border-bottom: 2.3rem solid var(--color-primary);
+      border: none;
+      /*max-height: 71.3rem;
+      max-width: 62.9rem;*/
+      max-width: 32.7vw;
+    }
+
+    &__green-rectangle {
+      display: flex;
+      position: absolute;
+      width: 105%;
+      height: 55%;
+      background-color: var(--color-primary);
+      right: 0;
+      top: 50%;
+      z-index: 1;
+    }
+  }
+}

@@ -1,0 +1,25 @@
+:root {
+    --color-primary: #6EE9CB;
+    --color-white: #FFFFFF;
+    --color-black: #000000;
+    --width-335: 335px;
+}
+
+@media only screen and (min-width: 1024px) {
+    :root {
+        --width-desktop-big: 1000px;
+    }
+}
+
+@media only screen and (min-width: 1380px) {
+    :root {
+        --width-desktop-big: 1280px;
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    :root {
+        --width-desktop-big: 1440px;
+        --width-desktop-medium: 1170px;
+    }
+}

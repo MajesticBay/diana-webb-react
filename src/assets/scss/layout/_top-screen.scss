@@ -1,0 +1,140 @@
+.top-screen {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-primary);
+  gap: 2.8rem;
+  padding: 2.8rem 3rem;
+
+  &__inner-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__hello {
+    font-weight: 600;
+    font-size: 2.6rem;
+    line-height: 120%;
+    margin-bottom: 2.6rem;
+  }
+
+  &__author-of-the-book {
+    font-weight: 500;
+    font-size: 4.9rem;
+    line-height: 92.02%;
+    //margin-top: 2.6rem;
+  }
+
+  &__book-title--top {
+    font-weight: bold;
+    font-size: 4.9rem;
+    line-height: 92.02%;
+    width: fit-content;
+    background-color: var(--color-white);
+    box-shadow: -1.8rem 0 var(--color-white), 2.7rem 0 var(--color-white);
+  }
+
+  &__book-title--bottom {
+    font-weight: bold;
+    font-size: 4.9rem;
+    line-height: 92.02%;
+    width: fit-content;
+
+    background-color: var(--color-white);
+    box-shadow: 4.2rem 0 var(--color-white), -1rem 0 var(--color-white);
+  }
+
+  &__order-btn-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__order-btn {
+    margin-top: 4.2rem;
+    margin-bottom: 4.2rem;
+  }
+
+  &__contact-btn {
+    display: none;
+  }
+
+  &__book-image {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .top-screen {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0;
+    //padding: 2.8rem 0rem 11.5rem 0rem;
+    //max-width: 117rem;
+
+    &__inner-container {
+      display: flex;
+      flex-direction: row;
+      // max-width: 117rem;
+      max-width: 1200px;
+      width: 100%;
+      justify-content: space-between;
+    }
+
+    &__left {
+      display: flex;
+      flex-direction: column;
+      padding: 2.8rem 0rem 11.5rem 0rem;
+      flex: 1 0 auto;
+    }
+
+    &__right {
+      display: flex;
+      flex: 1 0 auto;
+    }
+
+    &__hello {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+    }
+
+    &__author-of-the-book {
+      font-weight: 500;
+      font-size: 4.9rem;
+      line-height: 92.02%;
+      //margin-top: 2.6rem;
+    }
+
+    &__book-title--top {
+      font-size: 9.2rem;
+      box-shadow: -8rem 0 var(--color-white), 2.7rem 0 var(--color-white);
+    }
+
+    &__book-title--bottom {
+      font-size: 9.2rem;
+      width: fit-content;
+      box-shadow: 8rem 0 var(--color-white), -2.1rem 0 var(--color-white);
+    }
+
+    &__order-btn {
+      display: none;
+    }
+
+    &__contact-btn {
+      display: block;
+      margin-top: 7.7rem;
+    }
+
+    &__book-image {
+      height: 100%;
+      width: auto;
+    }
+
+    &__contact-btn-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+    }
+  }
+}

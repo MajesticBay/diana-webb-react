@@ -1,0 +1,134 @@
+.excerpt {
+  display: flex;
+  flex-direction: column;
+  padding: 4rem 2rem;
+  margin: 0 auto;
+
+  &__header {
+    display: flex;
+    font-weight: 600;
+    font-size: 3.7 rem;
+    line-height: 3.4rem;
+    margin-bottom: 2.5rem;
+  }
+
+  &__chapter-header {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__chapter-name {
+    display: flex;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    margin-bottom: 4rem;
+  }
+
+  &__chapter-epigraph {
+    display: flex;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    margin-bottom: 4rem;
+  }
+
+  &__text {
+    display: flex;
+    flex-direction: column;
+    text-indent: 2.5rem;
+  }
+
+  &__text--normal {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3.5rem;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+  }
+&__text--normal--mobile {
+  display: none;
+}
+  &__text--poem {
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+    font-size: 2.5rem;
+    line-height: 3.75rem;
+    margin-bottom: 4rem;
+    font-style: italic;
+    text-indent: 0;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .excerpt {
+    display: flex;
+    flex-direction: column;
+    padding: 7rem 0;
+    max-width: 117rem;
+    margin: 0 auto;
+
+    &__header {
+      display: flex;
+      font-weight: 600;
+      font-size: 5.6rem;
+      line-height: 5.15rem;
+      margin-bottom: 7rem;
+    }
+    &__chapter-header {
+      display: flex;
+      flex-direction: column;
+    }
+    &__chapter-name {
+      display: flex;
+      font-weight: 400;
+      font-size: 2.4rem;
+      line-height: 3.6rem;
+      margin-bottom: 3.5rem;
+    }
+    &__chapter-epigraph {
+      display: flex;
+      font-weight: 400;
+      font-style: italic;
+      font-size: 2.4rem;
+      line-height: 3.6rem;
+      margin-bottom: 3.5rem;
+    }
+    &__text {
+      display: flex;
+      flex-direction: column;
+    }
+    &__text--normal {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 3.5rem;
+      font-weight: 400;
+      font-size: 2.4rem;
+      line-height: 3.6rem;
+    }
+    &__text--normal--mobile {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 3.5rem;
+      font-weight: 400;
+      font-size: 2.4rem;
+      line-height: 3.6rem;
+    }
+    &__text--poem {
+      display: flex;
+      flex-direction: column;
+      font-weight: 400;
+      font-size: 2.4rem;
+      line-height: 3.6rem;
+      margin-bottom: 3.5rem;
+      font-style: italic;
+    }
+
+    &__text--normal--mobile {
+      display: flex;
+    }
+  }
+}
