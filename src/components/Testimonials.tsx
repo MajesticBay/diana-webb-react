@@ -1,5 +1,3 @@
-// import React from "react";
-
 const Testimonials = () => (
   <div className="testimonials">
     <h1 className="testimonials__header">What People Are Saying</h1>
